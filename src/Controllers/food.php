@@ -112,8 +112,6 @@ $app->post('/register', function ($request, $response, $args) {
     }
 });
 
-
-
 $app->post('/login', function ($request, $response, $args) {
     $body = $request->getParsedBody();
     $email = $body['email'];
